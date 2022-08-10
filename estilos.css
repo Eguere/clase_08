@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: aqua;
+    background-image: linear-gradient(315deg, blueviolet 0%, aquamarine 74%);
+}
+img{
+    width: 350px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+li{
+    float: left;
+    margin-top: 65px;
+    list-style: none;
+    padding: 30px;
+}
+li:hover a{
+    color: red;
+}
+nav{
+    float: right;
+    align-items: flex-start;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+footer{
+    background-color: aqua;
+    background-image: linear-gradient(315deg, blueviolet 0%, aquamarine 74%);
+}
+main{
+    background-color: aqua;
+    background-image: linear-gradient(315deg, blueviolet 0%, aquamarine 74%);
+}
+/*Transicion*/
+.transicion{
+    transition: width 2s;
+}
+.transicion:hover{
+    width: 50%;
+    height: 500px;
+    border: solid black;
+}
+
+
+/*Transformaciones*/
+.mover{
+    transform: translate(500px, 50%);
+}
+.girar{
+    transform: rotate(145deg);
+    background-image: url(Celular.png;);
+}
+.escalar{
+    transform: scale(2, 0.5);
+}
+.sesgar{
+    transform: skew(20deg, 15deg);
+}
+
+/*Animaciones*/
+.anima{
+    animation-name: caja;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes caja{
+    0%{
+
+    }
+    30%{
+        transform: translate(90%, -400px);
+    }
+    50%{
+        transform: rotate(160deg);
+    }
+    100%{
+
+    }
+}
+.anima2{
+    animation-name: caja;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+@keyframes caja{
+    0%{
+
+    }
+    30%{
+        transform: translate(90%, -400px);
+    }
+    50%{
+        transform: rotate(160deg);
+    }
+    100%{
+
+    }
+}
+.anima3{
+    animation-name: caja;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+@keyframes caja{
+    0%{
+
+    }
+    30%{
+        transform: translate(90%, -400px);
+    }
+    50%{
+        transform: rotate(160deg);
+    }
+    100%{
+
+    }
+}
